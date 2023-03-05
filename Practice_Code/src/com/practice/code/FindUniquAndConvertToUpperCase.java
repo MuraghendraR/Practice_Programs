@@ -15,6 +15,5 @@ public class FindUniquAndConvertToUpperCase {
 		list.addAll(str2);
 		
 		list.stream().map(i->i.toUpperCase()).forEach(System.out::print);
- 		
 	}
 }
